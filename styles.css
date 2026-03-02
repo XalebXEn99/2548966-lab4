@@ -1,5 +1,11 @@
 .spinner {
-    /* Your styling */
+    flex: auto;
+    color: blue;
+    border: 16px solid #f3f3f3; /* Light grey background border color */
+    border-top: 16px solid #3498db; /* Blue color for the spinning part */
+    border-radius: 50%; /* Make it a circle */
+    width: 120px; /* Set the size */
+    height: 120px;
     animation: spin 1s linear infinite; /* Required */
 }
 
@@ -9,18 +15,29 @@
 }
 
 .country-card{
-
+background: white;
+padding: 20px;
+margin: 20px;
+border-radius: 6px;
 
 
 }
+.neighbour-view{
+
+    background: white;
+    grid-template-columns: repeat();
+    gap : 15px;
+    padding: 20px;}
 
 .border-grid {
-    display: grid; /* or display: flex */
+    display: grid;
+    gap : 15px; /* or display: flex */
     /* Additional layout properties */
 }
 
 .error {
-    color: /* error color */;
+    color: red;
+    font: bold sans-serif;
     /* Additional styling */
 }
 
