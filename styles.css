@@ -1,5 +1,4 @@
 .spinner {
-    flex: auto;
     color: blue;
     border: 16px solid #f3f3f3; /* Light grey background border color */
     border-top: 16px solid #3498db; /* Blue color for the spinning part */
@@ -30,8 +29,7 @@ border-radius: 6px;
     padding: 20px;}
 
 .border-grid {
-    display: grid;
-    gap : 15px; /* or display: flex */
+    display: flex /* or display: flex */
     /* Additional layout properties */
 }
 
